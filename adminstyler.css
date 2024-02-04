@@ -1,0 +1,44 @@
+﻿#form-wrapper {
+    width:400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: product sans;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: product sans;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    input[type="submit"] {
+        background: #6987C9;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
